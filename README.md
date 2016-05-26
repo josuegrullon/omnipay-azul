@@ -61,4 +61,3 @@ You can set the following parameters:
  - testMode: Boolean to indicate testing.
 
 ```
-
