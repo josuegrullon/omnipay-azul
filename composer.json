@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/azul",
+    "name": "josue/omnipay-azul",
     "type": "library",
     "description": "Azul driver for the Omnipay payment processing library",
     "keywords": [
