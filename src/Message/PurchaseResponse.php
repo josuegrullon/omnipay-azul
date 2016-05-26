@@ -1,13 +1,13 @@
 <?php
 
-namespace Omnipay\PayFast\Message;
+namespace Omnipay\Azul\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RequestInterface;
 use Omnipay\Common\Message\RedirectResponseInterface;
 
 /**
- * PayFast Purchase Response
+ * Azul Purchase Response
  */
 class PurchaseResponse extends AbstractResponse implements RedirectResponseInterface
 {

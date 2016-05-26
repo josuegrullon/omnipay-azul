@@ -1,29 +1,25 @@
 {
-    "name": "omnipay/payfast",
+    "name": "omnipay/azul",
     "type": "library",
-    "description": "PayFast driver for the Omnipay payment processing library",
+    "description": "Azul driver for the Omnipay payment processing library",
     "keywords": [
         "gateway",
         "merchant",
         "omnipay",
         "pay",
-        "payfast",
+        "azul",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-payfast",
+    "homepage": "https://github.com/josuegrullon/omnipay-azul",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-payfast/contributors"
+            "name": "Josue Grullon",
+            "email": "josue@mctekk.com"
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\PayFast\\" : "src/" }
+        "psr-4": { "Omnipay\\Azul\\" : "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"

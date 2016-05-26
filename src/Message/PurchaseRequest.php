@@ -1,16 +1,16 @@
 <?php
 
-namespace Omnipay\PayFast\Message;
+namespace Omnipay\Azul\Message;
 
 use Omnipay\Common\Message\AbstractRequest;
 
 /**
- * PayFast Purchase Request
+ * Azul Purchase Request
  */
 class PurchaseRequest extends AbstractRequest
 {
-    protected $liveEndpoint = 'https://www.payfast.co.za/eng';
-    protected $testEndpoint = 'https://sandbox.payfast.co.za/eng';
+    protected $liveEndpoint = '';
+    protected $testEndpoint = '';
 
     public function getMerchantId()
     {
@@ -72,7 +72,7 @@ class PurchaseRequest extends AbstractRequest
     {
         $fields = array();
 
-        // specific order required by PayFast
+        // specific order required by Azul
         foreach (array('merchant_id', 'merchant_key', 'return_url', 'cancel_url', 'notify_url',
             'name_first', 'name_last', 'email_address', 'm_payment_id', 'amount', 'item_name',
             'item_description', 'email_confirmation', 'confirmation_address') as $key) {

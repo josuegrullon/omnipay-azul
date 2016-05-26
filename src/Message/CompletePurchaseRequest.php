@@ -1,11 +1,11 @@
 <?php
 
-namespace Omnipay\PayFast\Message;
+namespace Omnipay\Azul\Message;
 
 use Omnipay\Common\Exception\InvalidRequestException;
 
 /**
- * PayFast Complete Purchase Request
+ * Azul Complete Purchase Request
  *
  * We use the same return URL & class to handle both PDT (Payment Data Transfer)
  * and ITN (Instant Transaction Notification).

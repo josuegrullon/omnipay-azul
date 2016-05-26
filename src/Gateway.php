@@ -1,21 +1,20 @@
 <?php
 
-namespace Omnipay\PayFast;
+namespace Omnipay\Azul;
 
 use Omnipay\Common\AbstractGateway;
 
 /**
- * PayFast Gateway
+ * Azul Gateway
  *
- * Quote: The PayFast engine is basically a "black box" which processes a purchaser's payment.
+ * Quote: The Azul engine is basically a "black box" which processes a purchaser's payment.
  *
- * @link https://www.payfast.co.za/s/std/integration-guide
  */
 class Gateway extends AbstractGateway
 {
     public function getName()
     {
-        return 'PayFast';
+        return 'Azul';
     }
 
     public function getDefaultParameters()
@@ -60,11 +59,11 @@ class Gateway extends AbstractGateway
 
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\PayFast\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Azul\Message\PurchaseRequest', $parameters);
     }
 
     public function completePurchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\PayFast\Message\CompletePurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Azul\Message\CompletePurchaseRequest', $parameters);
     }
 }

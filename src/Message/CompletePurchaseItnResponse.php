@@ -1,12 +1,12 @@
 <?php
 
-namespace Omnipay\PayFast\Message;
+namespace Omnipay\Azul\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RequestInterface;
 
 /**
- * PayFast Complete Purchase ITN Response
+ * Azul Complete Purchase ITN Response
  */
 class CompletePurchaseItnResponse extends AbstractResponse
 {
