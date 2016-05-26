@@ -12,7 +12,7 @@ processing library for PHP 5.3+. This package implements paypro support for Omni
 This gateway can be installed with [Composer](https://getcomposer.org/):
 
 ``` bash
-$ composer require josuegrullon/omnipay-azul
+$ composer require josuegrullon/omnipay-azul:dev-master
 ```
 
 ## Usage
