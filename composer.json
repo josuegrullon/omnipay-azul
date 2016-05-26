@@ -2,7 +2,6 @@
     "name": "josuegrullon/omnipay-azul",
     "type": "library",
     "description": "Azul driver for the Omnipay payment processing library",
-    "minimum-stability": "stable",
     "keywords": [
         "gateway",
         "merchant",
