@@ -29,7 +29,7 @@ require_once  __DIR__ . '/vendor/autoload.php';
 
 use Omnipay\Omnipay;
 
-/** @var \Omnipay\PayPro\Gateway $gateway */
+/** @var \Omnipay\Azul\Gateway $gateway */
 $gateway = Omnipay::create('Azul');
 
 $gateway->initialize([
