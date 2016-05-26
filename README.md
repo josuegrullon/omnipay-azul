@@ -62,8 +62,3 @@ You can set the following parameters:
 
 ```
 
-## Credits
-
-- [All Contributors](../../contributors)
-
-
