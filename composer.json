@@ -2,7 +2,7 @@
     "name": "josuegrullon/omnipay-azul",
     "type": "library",
     "description": "Azul driver for the Omnipay payment processing library",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "keywords": [
         "gateway",
         "merchant",
@@ -30,7 +30,7 @@
     },
     "extra": {
         "branch-alias": {
-            "master": "2.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     }
 }
